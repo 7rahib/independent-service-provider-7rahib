@@ -4,6 +4,7 @@ import { Card } from 'react-bootstrap';
 const Blogs = () => {
     return (
         <div>
+            <h1 className='text-dark text-center m-2'>Questions and Answer</h1>
             <Card className='m-5'>
                 <Card.Header className='fw-bold'>Question 1: Difference between authorization and authentication.</Card.Header>
                 <Card.Body>
