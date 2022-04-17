@@ -5,6 +5,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import CustomLink from '../../Shared/CustomLink/CustomLink';
 import Loading from '../../Shared/Loading/Loading';
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Register = () => {
     const emailRef = useRef('');
@@ -61,6 +62,7 @@ const Register = () => {
                 {errorElement}
                 <p className='text-center'>Already have an account ? <CustomLink to="/login" className='text-primary pe-auto text-decoration-none'>Login to your account</CustomLink> </p>
             </div>
+            <SocialLogin></SocialLogin>
         </div>
     );
 };

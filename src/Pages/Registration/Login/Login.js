@@ -5,6 +5,7 @@ import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import Loading from '../../Shared/Loading/Loading';
 import auth from '../../../firebase.init';
 import CustomLink from '../../Shared/CustomLink/CustomLink';
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Login = () => {
     const emailRef = useRef('');
@@ -42,8 +43,8 @@ const Login = () => {
         signInWithEmailAndPassword(email, password);
     }
     return (
-        <div className='row'>
-            <div className='col col-lg-6 col-sm-8 container w-25 mx-auto'>
+        <div className='row '>
+            <div className='col col-lg-6 col-sm-8 container w-25 mx-auto '>
                 <h2 className='text-dark text-center m-3'>Login to your account</h2>
                 <Form onSubmit={handleSubmit}>
                     <Form.Group className="m-3" controlId="formBasicEmail">
@@ -60,6 +61,7 @@ const Login = () => {
                 <p className='text-center'>Don't have an account ? <CustomLink to="/register" className='text-primary pe-auto text-decoration-none'>Register Now</CustomLink> </p>
                 <p className='text-center'><CustomLink to="/register" className='text-primary pe-auto text-decoration-none'>Forget Password?</CustomLink></p>
             </div>
+            <SocialLogin></SocialLogin>
         </div>
     );
 };
