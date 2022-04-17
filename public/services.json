@@ -3,36 +3,42 @@
         "id": "625b17f90e92065b687ad60b",
         "picture": "https://i.ibb.co/YRrTmNn/wedding.jpg",
         "name": "Wedding Photography",
+        "price": 2500,
         "about": "Cupidatat ex exercitation commodo voluptate voluptate cupidatat sint fugiat consequat reprehenderit ex sunt sint. Duis sit non commodo veniam quis dolor adipisicing reprehenderit velit sint tempor dolore deserunt. Est Lorem non occaecat sint consequat id non occaecat. Laboris incididunt quis adipisicing sit voluptate culpa amet nisi. Ad in tempor reprehenderit consequat. Esse commodo ex culpa pariatur excepteur irure sunt. Elit deserunt officia cillum eiusmod eu amet ipsum ut nostrud nulla velit est exercitation dolore."
     },
     {
         "id": "625b17f955330443ff703d71",
         "picture": "https://i.ibb.co/8rLyzMB/event.jpg",
         "name": "Event Photography",
+        "price": 1500,
         "about": "Ut id sit consectetur in. Cillum tempor exercitation adipisicing minim incididunt sunt labore mollit do aute minim. Duis proident ipsum nulla nisi id sit irure culpa ad. Irure commodo exercitation Lorem reprehenderit veniam ex. Fugiat nostrud sit anim non deserunt velit laboris consequat laboris."
     },
     {
         "id": "625b17f9a2e549d5af9411bc",
         "picture": "https://i.ibb.co/bgFkkHx/birthday.jpg",
         "name": "Birthday Photography",
+        "price": 1000,
         "about": "In laboris commodo consequat nostrud non sint. Quis tempor aute nulla ea occaecat anim. Minim ullamco occaecat eiusmod magna excepteur incididunt minim consectetur ea. Qui laborum id mollit irure velit. Magna et proident officia commodo sit veniam aliqua eiusmod consectetur est qui. Cupidatat pariatur ipsum elit irure dolore dolor ullamco veniam Lorem id eu anim deserunt voluptate."
     },
     {
         "id": "625b17f9dc77939c1b9b25e8",
         "picture": "https://i.ibb.co/PtR3G57/wild.jpg",
         "name": "Wild-Life Photography",
+        "price": 4500,
         "about": "Mollit deserunt ex voluptate sit veniam fugiat. Magna mollit laborum minim pariatur labore in cillum eiusmod laborum do labore. Nulla eiusmod pariatur ea commodo dolore sit tempor. Dolore sit elit est proident pariatur pariatur culpa laborum nostrud. Ipsum occaecat aliquip ea deserunt irure id officia eiusmod. Magna ipsum enim cupidatat excepteur reprehenderit."
     },
     {
         "id": "625b17f9c8dbbad424f33a07",
         "picture": "https://i.ibb.co/WkR9GHt/portrait.jpg",
         "name": " Portraits",
+        "price": 1200,
         "about": "Laborum veniam minim Lorem velit fugiat exercitation ad enim labore incididunt Lorem. Nisi aute sit in ipsum commodo sunt consequat do Lorem id quis dolore sunt sint. Culpa ut velit incididunt deserunt elit aliqua adipisicing. Reprehenderit aliqua proident commodo aliquip duis consectetur laboris enim Lorem. Ad nulla proident consequat dolore ut ut aliquip et aliqua. Consequat incididunt ipsum ex non sit eu consectetur laboris."
     },
     {
         "id": "625b17f9da6830bca2aa46ca",
         "picture": "https://i.ibb.co/RPbxhp5/landscape.jpg",
         "name": "Landscapes",
+        "price": 1400,
         "about": "Consectetur aute eiusmod mollit ea exercitation id. Adipisicing qui non cupidatat aute sunt in mollit aute cillum id adipisicing ea non. Exercitation proident sunt in cillum laborum cillum fugiat veniam incididunt adipisicing tempor commodo anim consequat."
     }
 ]

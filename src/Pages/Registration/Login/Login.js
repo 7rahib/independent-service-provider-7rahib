@@ -1,9 +1,10 @@
 import React, { useRef } from 'react';
 import { Button, Form } from 'react-bootstrap';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import Loading from '../../Shared/Loading/Loading';
 import auth from '../../../firebase.init';
+import CustomLink from '../../Shared/CustomLink/CustomLink';
 
 const Login = () => {
     const emailRef = useRef('');
@@ -56,8 +57,8 @@ const Login = () => {
                     </Button>
                 </Form>
                 {errorElement}
-                <p className='text-center'>Don't have an account ? <Link to="/register" className='text-primary pe-auto text-decoration-none'>Register Now</Link> </p>
-                <p className='text-center'><Link to="/register" className='text-primary pe-auto text-decoration-none'>Forget Password?</Link></p>
+                <p className='text-center'>Don't have an account ? <CustomLink to="/register" className='text-primary pe-auto text-decoration-none'>Register Now</CustomLink> </p>
+                <p className='text-center'><CustomLink to="/register" className='text-primary pe-auto text-decoration-none'>Forget Password?</CustomLink></p>
             </div>
         </div>
     );
