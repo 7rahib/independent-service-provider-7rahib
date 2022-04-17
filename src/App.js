@@ -8,6 +8,9 @@ import About from './Pages/About/About';
 import Blogs from './Pages/Blogs/Blogs';
 import Register from './Pages/Registration/Register/Register'
 import NotFound from './Pages/Shared/NotFound/NotFound';
+import Checkout from './Pages/CheckOut/Checkout';
+import Details from './Pages/Home/Details/Details';
+import RequiredAuth from './Pages/Registration/RequiredAuth/RequiredAuth';
 
 function App() {
   return (
@@ -18,6 +21,12 @@ function App() {
         <Route path="/home" element={<Home></Home>}></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+        <Route path='/service/:serviceId' element={<Details></Details>}></Route>
+        <Route path="/checkout" element={
+          <RequiredAuth>
+            <Checkout></Checkout>
+          </RequiredAuth>
+        }></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
