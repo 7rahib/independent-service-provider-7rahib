@@ -19,7 +19,7 @@ const Banner = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3>We make Stories</h3>
+                    <h3>I make Stories</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -30,7 +30,7 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>We capture Life</h3>
+                    <h3>I capture Life</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -40,7 +40,7 @@ const Banner = () => {
                     alt="Third slide"
                 />
                 <Carousel.Caption>
-                    <h3>We look for the Moments</h3>
+                    <h3>I look for the Moments</h3>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

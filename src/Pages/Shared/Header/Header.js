@@ -20,8 +20,8 @@ const Header = () => {
                     <Navbar.Brand as={CustomLink} to="/"><FontAwesomeIcon className="me-2" icon={faCamera} />Story Maker</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="me-auto mx-auto">
-                            <Nav.Link href="#services">Services</Nav.Link>
+                        <Nav className="me-auto">
+                            <Nav.Link as={CustomLink} to="/home#services">Services</Nav.Link>
                             <Nav.Link as={CustomLink} to="blogs">Blogs</Nav.Link>
                             <Nav.Link as={CustomLink} to="about">About</Nav.Link>
                         </Nav>
