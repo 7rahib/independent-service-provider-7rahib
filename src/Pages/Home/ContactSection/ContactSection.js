@@ -7,7 +7,7 @@ const ContactSection = () => {
         event.preventDefault();
     }
     return (
-        <div className='container border border-2 p-3'>
+        <div className='container border border-2 p-3 mx-auto w-75'>
             <h1 className='text-dark text-center'>Connect with me</h1>
             <div className='d-flex justify-content-center align-items-center'>
                 <div className='row'>
@@ -41,9 +41,12 @@ const ContactSection = () => {
                             <Form.Control type="text" placeholder="Full Name" />
                         </Col>
                     </Form.Group>
-                    <fieldset>
+                    <fieldset className='d-lg-flex d-sm-block'>
+                        <Form.Label className='me-1' column sm={2}>
+                            Your Comment
+                        </Form.Label>
                         <div className="input-group">
-                            <span className="me-5">Your Comment</span>
+
                             <textarea className="form-control" aria-label="With textarea"></textarea>
                         </div>
                     </fieldset>
