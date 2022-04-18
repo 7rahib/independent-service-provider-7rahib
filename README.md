@@ -1,7 +1,7 @@
 # Individual Service Provider Website
 ## By Naimur Rashid Rahib
 
-[Live Site](https://github.com/facebook/create-react-app)
+[Live Site](https://independent-service-prov-7c968.web.app/)
 
 * Checkout Services of a individual service provider
 * Create your own account
